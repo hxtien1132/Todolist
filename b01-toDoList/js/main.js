@@ -29,25 +29,25 @@ let btnSubmit = document.getElementById('btn-submit');
 let btnUpdate = document.getElementById('btn-update');
 let ipName = document.getElementById("input-name");
 let iplevel = document.getElementById("input-level");
-// let items=[{
-//     id : makeID(),
-//     name : 'ten 1',
-//     level : 0
-// },
-// {
-//     id : makeID(),
-//     name : 'ten 1',
-//     level : 1
-// },
-// {
-//     id : makeID(),
-//     name : 'ten 1',
-//     level : 2
-// },
+let items=[{
+    id : makeID(),
+    name : 'ten 1',
+    level : 0
+},
+{
+    id : makeID(),
+    name : 'ten 1',
+    level : 1
+},
+{
+    id : makeID(),
+    name : 'ten 1',
+    level : 2
+},
 
-// ];
+];
 saveStorage(items);
-let items = {};
+// let items = {};
 items = loadStorage();
 showItems(items);
 
